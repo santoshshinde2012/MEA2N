@@ -36,7 +36,7 @@ var TaskComponent = (function () {
         this.taskService.deleteTask(task._id)
             .subscribe(function (data) {
             if (data) {
-                _this.tasks.splice(_this.tasks.indexOf(task._id), 1);
+                _this.tasks.splice(_this.tasks.indexOf(task), 1);
             }
         });
     };

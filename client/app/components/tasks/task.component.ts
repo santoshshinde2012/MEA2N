@@ -33,7 +33,7 @@ export class TaskComponent {
         this.taskService.deleteTask(task._id)
             .subscribe(data => {
                if(data){
-                   this.tasks.splice(this.tasks.indexOf(task._id), 1);
+                   this.tasks.splice(this.tasks.indexOf(task), 1);
                }
             });
     }

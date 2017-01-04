@@ -31,6 +31,13 @@ To install the dependencies, run this in the application folder from the command
 $ npm install
 ```
 
+Also you need to install the dependencies for `client` folder from the command-line :
+
+```bash
+$ cd MEA2N/client
+$ npm install
+```
+
 This command does a few things:
 * First it will install the dependencies needed for the application to run.
 * If you're running in a development environment, it will then also install development dependencies needed for testing and running your application.
@@ -46,4 +53,3 @@ $ npm start
 ```
 
 Your application should run on port 8080 with the *development* environment configuration, so in your browser just go to [http://localhost:8080](http://localhost:8080)
-
